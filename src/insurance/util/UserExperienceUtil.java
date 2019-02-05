@@ -91,9 +91,9 @@ public final class UserExperienceUtil
     println(" " + SHOW_STATISTIC.getValue() + ". Показать статистику.");
     println(" " + CHANGE_CONTRACT_CONDITIONS.getValue() + ". Изменить условия контрактов.");
     println(" " + EXECUTE_ONE_MONTH.getValue() + ". Выполнить один месяц.");
-    println(" 4. Выполнить один месяц, показать статистику и завершить программу.");
-    println("\n " + EXIT.getValue() + ". Выход.");
-    print("Ваше действие (число 1-4 или 0 для выхода): ");
+    println(" " + EXIT.getValue() + ". Выход: Выполнить один месяц, показать статистику и завершить программу.");
+    //println("\n " + EXIT.getValue() + ". Выход.");
+    println("\nВаше действие (число 1-4 или 0 для выхода): ");
   }
 
   public static void showExpandedStatistic(ContractsInfo contractsInfo)
