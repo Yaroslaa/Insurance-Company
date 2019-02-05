@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="492.0">insurance.util.UserExperienceUtil</node>
+    <node x="261.0" y="0.0">insurance.contract.Contract</node>
+    <node x="348.0" y="492.0">insurance.contract.ContractsInfo</node>
+    <node x="0.0" y="79.0">insurance.contract.type.HouseContract</node>
+    <node x="338.0" y="263.0">insurance.common.RateAlgorithm</node>
+    <node x="424.0" y="79.0">insurance.contract.type.CarContract</node>
+    <node x="0.0" y="263.0">insurance.common.ActionEnum</node>
+    <node x="186.0" y="633.0">insurance.util.FileUtil</node>
+    <node x="212.0" y="79.0">insurance.contract.type.HealthContract</node>
+    <node x="347.0" y="633.0">Main</node>
+    <node x="0.0" y="633.0">insurance.util.ConsoleUtil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="insurance.contract.type.CarContract" target="insurance.contract.Contract">
+      <point x="0.0" y="-69.5" />
+      <point x="520.0" y="54.0" />
+      <point x="339.3333333333333" y="54.0" />
+      <point x="31.333333333333314" y="14.5" />
+    </edge>
+    <edge source="insurance.contract.type.HealthContract" target="insurance.contract.Contract">
+      <point x="0.0" y="-69.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="insurance.contract.type.HouseContract" target="insurance.contract.Contract">
+      <point x="0.0" y="-69.5" />
+      <point x="96.0" y="54.0" />
+      <point x="276.6666666666667" y="54.0" />
+      <point x="-31.333333333333314" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="549.0" y="305.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
